@@ -1,0 +1,11 @@
+.maps {
+    background: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 5px 5px 0px #DDDDDD;
+}
+
+.maps__search input {
+    @include maps;
+}

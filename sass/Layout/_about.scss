@@ -1,0 +1,9 @@
+.about {
+    @include about;
+    h2 {
+        font-weight: bold;
+    }
+    p {
+        color: #4D4D4D;
+    }
+}
