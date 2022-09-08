@@ -170,7 +170,7 @@
 }
 
 @mixin large {
-    @media creen and (min-width: map-get($breakpoints, large)) {
+    @media screen and (min-width: map-get($breakpoints, large)) {
         @content;
     }
 }
