@@ -405,6 +405,7 @@ ul li a {
 .operation h2 {
   padding: 20px;
   margin: 0;
+  text-align: center;
 }
 
 .operation .operation__steps {
@@ -419,7 +420,7 @@ ul li a {
 .operation .operation__steps li {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
   padding: 25px;
