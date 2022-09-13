@@ -245,80 +245,6 @@ ul li a {
   margin-right: 5px;
 }
 
-.main__menu {
-  background-color: #f6f6f6;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  width: 100%;
-  position: relative;
-  margin-top: -50px;
-}
-
-@media screen and (min-width: 1280px) {
-  .full__menu {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-
-.starter {
-  animation: fadein 3s ease-in-out;
-}
-
-@media screen and (min-width: 1280px) {
-  .starter {
-    width: 400px;
-  }
-}
-
-.dish {
-  animation: fadein 6s ease-in-out;
-}
-
-@media screen and (min-width: 1280px) {
-  .dish {
-    width: 400px;
-  }
-}
-
-.dessert {
-  animation: fadein 9s ease-in-out;
-}
-
-@media screen and (min-width: 1280px) {
-  .dessert {
-    width: 400px;
-  }
-}
-
-.cross {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #99E2D0;
-  width: 50px;
-  height: 63px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  position: absolute;
-  padding: 20px;
-  right: -50px;
-  top: 0;
-  opacity: 0;
-  transition: transform 330ms ease-in-out;
-}
-
-.cross .fa-check-circle {
-  color: #fff;
-  transition: transform 500ms ease-in-out;
-}
-
-.line {
-  width: 40px;
-  border: 2px solid #99E2D0;
-  margin-left: 10px;
-}
-
 @media screen and (min-width: 768px) {
   .restaurant__title {
     width: 100%;
@@ -461,6 +387,80 @@ ul li a {
 .operation .operation__steps li p {
   font-weight: 500;
   margin-left: 20px;
+}
+
+.main__menu {
+  background-color: #f6f6f6;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+  position: relative;
+  margin-top: -50px;
+}
+
+@media screen and (min-width: 1280px) {
+  .full__menu {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+.starter {
+  animation: fadein 3s ease-in-out;
+}
+
+@media screen and (min-width: 1280px) {
+  .starter {
+    width: 400px;
+  }
+}
+
+.dish {
+  animation: fadein 6s ease-in-out;
+}
+
+@media screen and (min-width: 1280px) {
+  .dish {
+    width: 400px;
+  }
+}
+
+.dessert {
+  animation: fadein 9s ease-in-out;
+}
+
+@media screen and (min-width: 1280px) {
+  .dessert {
+    width: 400px;
+  }
+}
+
+.cross {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #99E2D0;
+  width: 50px;
+  height: 63px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  padding: 20px;
+  right: -50px;
+  top: 0;
+  opacity: 0;
+  transition: transform 330ms ease-in-out;
+}
+
+.cross .fa-check-circle {
+  color: #fff;
+  transition: transform 500ms ease-in-out;
+}
+
+.line {
+  width: 40px;
+  border: 2px solid #99E2D0;
+  margin-left: 10px;
 }
 
 body {
