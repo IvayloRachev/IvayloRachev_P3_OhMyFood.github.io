@@ -1,5 +1,14 @@
 .main__menu {
     @include main-menu;
+    .menu__title {
+        padding-top: 10%;
+        @include tablet {
+            padding-top: 2%;
+        }
+        @include desktop {
+            padding-top: 2%;
+        }
+    }
 }
 
 .full__menu {

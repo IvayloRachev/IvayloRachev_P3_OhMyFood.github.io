@@ -1,5 +1,5 @@
 .footer {
-    background: darken(#636363, 30%);
+    background: #353535;
     &-insert {
         padding: 30px;
     }
@@ -17,6 +17,9 @@
     }
     &-insert__icon {
         width: 30px;
+    }
+    @include tablet {
+        text-align: center;
     }
 }
 

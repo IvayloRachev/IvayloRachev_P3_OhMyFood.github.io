@@ -5,4 +5,7 @@
         background-blend-mode: lighten;
         box-shadow: 4px 4px 6px #000000;
     }
+    @include desktop {
+        margin-top: 5%;
+    }
 }

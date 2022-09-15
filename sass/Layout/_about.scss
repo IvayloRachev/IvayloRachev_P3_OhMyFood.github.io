@@ -2,8 +2,11 @@
     @include about;
     h2 {
         font-weight: bold;
+        font-size: 35px;
     }
     p {
+        margin: auto;
         color: #4D4D4D;
+        font-size: 20px;
     }
 }

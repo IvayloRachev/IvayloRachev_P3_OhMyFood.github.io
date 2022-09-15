@@ -149,10 +149,13 @@
 
 .about h2 {
   font-weight: bold;
+  font-size: 35px;
 }
 
 .about p {
+  margin: auto;
   color: #4D4D4D;
+  font-size: 20px;
 }
 
 .howto__title {
@@ -212,7 +215,7 @@
 }
 
 .footer {
-  background: #171717;
+  background: #353535;
 }
 
 .footer-insert {
@@ -237,6 +240,12 @@
   width: 30px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   footer {
     text-align: center;
@@ -255,6 +264,7 @@
 
 .restaurant__title h3 {
   padding: 30px 0px 0px 10px;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -282,14 +292,21 @@
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   width: 100%;
-  height: 100%;
-  max-height: 220px;
+  height: auto;
+  max-height: 180px;
+}
+
+@media screen and (min-width: 1280px) {
+  .card img {
+    max-height: 220px;
+  }
 }
 
 .main__restaurant {
   background: #f2f2f2;
   display: flex;
   flex-direction: column;
+  padding-bottom: 15%;
 }
 
 @media screen and (min-width: 768px) {
@@ -314,11 +331,16 @@
 
 .card figure {
   margin: 0;
+  padding: 0;
 }
 
 .card figcaption {
   margin: 0;
-  padding: 10px;
+  padding: 0 10px 0 10px;
+}
+
+.card figcaption p {
+  margin-top: 0;
 }
 
 .heart h4 {
@@ -341,7 +363,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  background: #ececec;
+  background: #F6F6F6;
   border-radius: 20px;
   margin: 10px 20px 20px 25px;
   box-shadow: 2px 2px 7px #d3d3d3;
@@ -402,6 +424,22 @@
   width: 100%;
   position: relative;
   margin-top: -50px;
+}
+
+.main__menu .menu__title {
+  padding-top: 10%;
+}
+
+@media screen and (min-width: 768px) {
+  .main__menu .menu__title {
+    padding-top: 2%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .main__menu .menu__title {
+    padding-top: 2%;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -508,9 +546,10 @@ html {
 }
 
 .btn__about button {
-  background-image: linear-gradient(to left, #9356DC, #B35CDC, #CF64DC, #E86EDB, #FF79DA);
+  background-image: linear-gradient(#FF79DA, #E86EDB, #CF64DC, #B35CDC, #9356DC);
   border: 1px solid transparent;
   border-radius: 30px;
+  margin-top: 10%;
   padding: 10px 5px;
   color: #fff;
   font-weight: bold;
@@ -522,6 +561,12 @@ html {
   background: #ae80e5;
   background-blend-mode: lighten;
   box-shadow: 4px 4px 6px #000000;
+}
+
+@media screen and (min-width: 1280px) {
+  .btn__about button {
+    margin-top: 5%;
+  }
 }
 
 .maps {
@@ -576,7 +621,7 @@ html {
   border: 5px solid #99E2D0;
   border-radius: 5px;
   position: absolute;
-  right: 1%;
+  right: 5%;
   top: 5%;
 }
 
@@ -616,9 +661,21 @@ html {
 .menu__title {
   font-family: Shrikhand, sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu__title {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .menu__title {
+    justify-content: space-between;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -691,9 +748,10 @@ html {
 }
 
 .btn__order button {
-  background-image: linear-gradient(to left, #9356DC, #B35CDC, #CF64DC, #E86EDB, #FF79DA);
+  background-image: linear-gradient(#FF79DA, #E86EDB, #CF64DC, #B35CDC, #9356DC);
   border: 1px solid transparent;
   border-radius: 30px;
+  margin-top: 10%;
   padding: 10px 5px;
   color: #fff;
   font-weight: bold;
