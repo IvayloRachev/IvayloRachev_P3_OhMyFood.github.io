@@ -48,7 +48,7 @@
     @include card-figure;
 }
 
-.card figcaption {
+.card .figcaption {
     @include card-figcaption;
     p {
         margin-top: 0;

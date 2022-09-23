@@ -278,12 +278,12 @@
   padding: 0;
 }
 
-.card figcaption {
+.card .figcaption {
   margin: 0;
   padding: 0 10px 0 10px;
 }
 
-.card figcaption p {
+.card .figcaption p {
   margin-top: 0;
 }
 
