@@ -50,8 +50,7 @@
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     width: 100%;
-    height: auto;
-    max-height: 180px;
+    height: 180px;
     @include desktop {
         height: 220px;
     }
