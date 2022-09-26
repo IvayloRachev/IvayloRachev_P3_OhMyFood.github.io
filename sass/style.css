@@ -498,6 +498,7 @@ html {
 .btn__about button {
   background-image: linear-gradient(#FF79DA, #E86EDB, #CF64DC, #B35CDC, #9356DC);
   border: 1px solid transparent;
+  border-style: none;
   border-radius: 30px;
   margin-top: 10%;
   padding: 10px 5px;
@@ -672,6 +673,7 @@ html {
 .btn__order button {
   background-image: linear-gradient(#FF79DA, #E86EDB, #CF64DC, #B35CDC, #9356DC);
   border: 1px solid transparent;
+  border-style: none;
   border-radius: 30px;
   margin-top: 10%;
   padding: 10px 5px;
