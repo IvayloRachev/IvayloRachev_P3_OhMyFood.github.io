@@ -53,7 +53,7 @@
     height: auto;
     max-height: 180px;
     @include desktop {
-        max-height: 220px;
+        height: 220px;
     }
 }
 

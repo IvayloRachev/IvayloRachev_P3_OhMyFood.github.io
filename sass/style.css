@@ -242,7 +242,7 @@
 
 @media screen and (min-width: 1280px) {
   .card img {
-    max-height: 220px;
+    height: 220px;
   }
 }
 
