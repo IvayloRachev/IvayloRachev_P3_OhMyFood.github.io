@@ -1,50 +1,44 @@
-.main__menu {
-    @include main-menu;
-    .menu__title {
-        padding-top: 10%;
-        @include tablet {
-            padding-top: 2%;
-        }
-        @include desktop {
-            padding-top: 2%;
-        }
-    }
-}
-
-.full__menu {
-    @include desktop {
-        display: flex;
-        justify-content: space-around;
-    }
-}
-
-.starter {
-    animation: fadein 3s ease-in-out;
-    @include desktop {
-        width: 400px;
-    }
-}
-
-.dish {
-    animation: fadein 6s ease-in-out;
-    @include desktop {
-        width: 400px;
-    }
-}
-
-.dessert {
-    animation: fadein 9s ease-in-out;
-    @include desktop {
-        width: 400px;
-    }
-}
-
-.cross {
-    @include cross;
-}
-
-.line {
-    width: 40px;
-    border: 2px solid $color-tertiary;
-    margin-left: 10px;
-}
+            .main__menu {
+                @include main-menu;
+                .menu__title {
+                    padding-top: 10%;
+                    @include tablet {
+                        padding-top: 2%;
+                    }
+                    @include desktop {
+                        padding-top: 2%;
+                    }
+                }
+            }
+            
+            .full__menu {
+                @include desktop {
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+            
+            .starter {
+                animation: fadein 3s ease-in-out;
+                @include desktop {
+                    width: 400px;
+                }
+            }
+            
+            .dish {
+                animation: fadein 6s ease-in-out;
+                @include desktop {
+                    width: 400px;
+                }
+            }
+            
+            .dessert {
+                animation: fadein 9s ease-in-out;
+                @include desktop {
+                    width: 400px;
+                }
+            }
+            
+            .cross {
+                @include cross;
+            }

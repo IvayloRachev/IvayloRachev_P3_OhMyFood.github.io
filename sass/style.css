@@ -451,12 +451,6 @@
   transition: transform 500ms ease-in-out;
 }
 
-.line {
-  width: 40px;
-  border: 2px solid #99E2D0;
-  margin-left: 10px;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -668,6 +662,19 @@ html {
   padding-left: 10px;
   text-transform: uppercase;
   margin-bottom: 5px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.starter h3::before,
+.dish h3::before,
+.dessert h3::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background-color: #99E2D0;
+  position: absolute;
+  bottom: 0;
 }
 
 .btn__order button {
