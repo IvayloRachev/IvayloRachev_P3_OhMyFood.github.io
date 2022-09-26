@@ -200,6 +200,12 @@
   }
 }
 
+.restaurant {
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 768px) {
   .restaurant__title {
     width: 100%;
